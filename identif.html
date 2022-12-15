@@ -19,7 +19,7 @@
     <form>
         <input type="file" multiple accept="image/png, image/jpeg"/>
         
-        <button type="button" id="btn1" class="btn btn-outline-success" onclick="fun1()">OK</button>
+        <button type="button" class="btn btn-outline-success">OK</button>
      
       </form>
 
@@ -38,11 +38,7 @@
 
 //How to know if the buttón is clicked
 
-function fun1(){
-  console.log("ok");
-  
-document.write('<div class="loader"></div>');
-}
+alert("Cargando");
 
   
    document.querySelector('button').onclick = function sendIdentification() {
